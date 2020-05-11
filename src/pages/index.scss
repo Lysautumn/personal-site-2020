@@ -1,0 +1,14 @@
+@import '../components/variables.scss';
+
+@import '~bulma/bulma.sass';
+
+.main-name {
+  background: url(../images/cropped-meric-dagli.jpg);
+  background-position: center;
+  background-clip: content-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: $main-name-font;
+  font-size: 6em;
+  padding: 10px;
+}
