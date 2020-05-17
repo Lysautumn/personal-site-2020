@@ -6,23 +6,33 @@ import SEO from '../components/seo';
 
 import './index.scss';
 
-const imageStyles = {
-  maxWidth: `300px`,
-  marginBottom: `1.45rem`
-};
-
 const IndexPage = () => (
   <>
     <SEO title="Ally Boyd" />
-    <section className="hero is-primary is-bold is-fullheight">
-      <div className="container">
-        <h1 className="title">Hey, I'm <span className="main-name">Ally</span></h1>
+    <section className="hero is-primary is-fullheight">
+      <div className="hero-body">
+        <div className="container">
+          <div className="columns is-flex is-multiline is-centered">
+            <div className="column is-one-third-desktop is-offset-1-desktop is-full-mobile center">
+              <figure className="main-image-container">
+                <Image />
+              </figure>
+            </div>
+            <div className="column has-text-centered">
+              <h1 className="title">Hey, I'm <span className="main-name is-full-mobile">Ally</span></h1>
+              <h2 className="subtitle main-subtitle">Creative software engineer in Minneapolis, MN</h2>
+            </div>
+          </div>
+          <div className="column button-container has-text-centered">
+            <button className="button is-medium learn-more-button">Learn More</button>
+          </div>
 
-        <div style={ imageStyles }>
-          <Image />
         </div>
-        <h2 className="subtitle">Creative software engineer in Minneapolis, MN</h2>
       </div>
+
+
+
+
 
       <Link to="/page-2/">Go to page 2</Link>
     </section>
