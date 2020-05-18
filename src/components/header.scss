@@ -1,0 +1,12 @@
+@import '../components/variables.scss';
+
+@import '~bulma/bulma.sass';
+
+.navbar {
+    background-image: $colorful-background;
+
+    .navbar-item {
+        color: $primary;
+        font-family: $main-headline-font;
+    }
+}

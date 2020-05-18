@@ -26,7 +26,6 @@ const IndexPage = () => (
           <div className="column button-container has-text-centered">
             <button className="button is-medium learn-more-button">Learn More</button>
           </div>
-
         </div>
       </div>
 
