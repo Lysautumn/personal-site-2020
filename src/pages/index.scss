@@ -3,7 +3,7 @@
 @import '~bulma/bulma.sass';
 
 .main-name {
-  background: $font-background;
+  background: $colorful-background;
   background-position: center;
   background-clip: content-box;
   -webkit-text-fill-color: transparent;
@@ -41,7 +41,7 @@
 }
 
 .learn-more-button, .learn-more-button:hover, .learn-more-button:focus {
-  background: $font-background;
+  background: $colorful-background;
   color: $primary;
   text-decoration: none;
 }

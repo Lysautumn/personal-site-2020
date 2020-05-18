@@ -24,19 +24,12 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="column button-container has-text-centered">
-            <button className="button is-medium learn-more-button">Learn More</button>
+            <Link to="/page-2/" className="button is-medium learn-more-button">Learn More</Link>
           </div>
         </div>
       </div>
-
-
-
-
-
-      <Link to="/page-2/">Go to page 2</Link>
     </section>
   </>
-
 );
 
 export default IndexPage;
