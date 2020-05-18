@@ -1,0 +1,32 @@
+@import '../components/variables.scss';
+
+@import '~bulma/bulma.sass';
+
+.about-container {
+    margin: 0 70px;
+
+    .section {
+        padding: 10px 0;
+
+        .about-subtitle {
+            font-family: $accent-font;
+            color: $accent;
+        }
+
+        p {
+            padding-bottom: 20px;
+        }
+
+        .link-container {
+            margin-top: -10px;
+
+            .links {
+                color: $accent;
+            }
+
+            .icons {
+                margin-right: 5px;
+            }
+        }
+    }
+}

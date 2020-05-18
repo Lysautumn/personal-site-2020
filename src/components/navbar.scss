@@ -11,7 +11,12 @@
 
         .navbar-text {
             color: $primary;
-            font-family: $main-headline-font;
+            font-family: $main-font;
+            font-size: 1.1em;
+        }
+
+        .nav-title {
+            font-family: $accent-font;
         }
     }
 

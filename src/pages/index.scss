@@ -8,13 +8,13 @@
   background-clip: content-box;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-family: $main-name-font;
+  font-family: $accent-font;
   font-size: 6em;
-  padding: 15px;
+  padding: 20px;
 }
 
 .title, .main-subtitle, .learn-more-button {
-  font-family: $main-headline-font;
+  font-family: $main-font;
 }
 
 .main-subtitle {
@@ -33,6 +33,9 @@
 
   .main-image {
     border-radius: 8px;
+    -webkit-box-shadow: -4px 4px 15px 0px rgba(150,148,150,1);
+    -moz-box-shadow: -4px 4px 15px 0px rgba(150,148,150,1);
+    box-shadow: -4px 4px 15px 0px rgba(150,148,150,1);
   }
 }
 
@@ -44,4 +47,15 @@
   background: $colorful-background;
   color: $primary;
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .main-name {
+    padding: 10px;
+  }
+
+  .main-image-container {
+    max-width: 300px;
+    min-width: 200px;
+  }
 }

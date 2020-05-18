@@ -19,12 +19,12 @@ const IndexPage = () => (
               </figure>
             </div>
             <div className="column has-text-centered">
-              <h1 className="title">Hey, I'm <span className="main-name is-full-mobile">Ally</span></h1>
-              <h2 className="subtitle main-subtitle">Creative software engineer in Minneapolis, MN</h2>
+              <h1 className="title is-size-4-mobile">Hey, I'm <span className="main-name is-size-1-mobile">Ally</span></h1>
+              <h2 className="subtitle main-subtitle is-size-6-mobile">Creative software engineer in Minneapolis, MN</h2>
             </div>
           </div>
           <div className="column button-container has-text-centered">
-            <Link to="/page-2/" className="button is-medium learn-more-button">Learn More</Link>
+            <Link to="/about/" className="button is-medium learn-more-button">Learn More</Link>
           </div>
         </div>
       </div>

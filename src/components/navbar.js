@@ -8,7 +8,7 @@ const NavBar = ({ siteTitle }) => (
   <nav className="level" aria-label="navigation">
     <div className="level-left">
       <div className="level-item">
-        <Link className="title" to="/"><span className="navbar-text">{ siteTitle }</span></Link>
+        <Link className="title is-1" to="/"><span className="navbar-text nav-title">{ siteTitle }</span></Link>
       </div>
     </div>
     <div className="level-right">
