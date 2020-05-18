@@ -1,0 +1,42 @@
+@import '../components/variables.scss';
+
+@import '~bulma/bulma.sass';
+
+.contact-container {
+  height: 100vh;
+
+  .card-container{
+    .card {
+      background-color: white;
+      margin-bottom: 20px;
+
+      .card-content {
+
+        .bold-text {
+          font-weight: 700;
+        }
+
+        .email {
+          font-weight: 300;
+          font-size: .95em;
+        }
+
+        .link-container {
+          margin: 10px 0;
+          .links {
+            color: $accent;
+          }
+  
+          .links:hover {
+            font-weight: 600;
+          }
+  
+          .icons {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+
+  }
+}

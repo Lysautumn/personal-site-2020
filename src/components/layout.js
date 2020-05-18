@@ -20,6 +20,7 @@ const Layout = ({ children }) => {
     <>
       <NavBar siteTitle={ data.site.siteMetadata.title } />
       <div
+        className="layout"
         style={{
           margin: `0 auto`,
           maxWidth: 960,

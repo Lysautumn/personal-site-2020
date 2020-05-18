@@ -18,9 +18,6 @@ const NavBar = ({ siteTitle }) => (
       <div className="level-item">
         <Link className="navbar-text" to="/contact/">Contact</Link>
       </div>
-      <div className="level-item">
-        <Link className="navbar-text" to="/work/">My Work</Link>
-      </div>
     </div>
   </nav>
 );

@@ -3,28 +3,27 @@
 @import '~bulma/bulma.sass';
 
 .level {
-    background-image: $colorful-background;
-    padding: 20px;
+  background-image: $colorful-background;
+  padding: 20px;
 
-    .level-item {
-        padding-right: 10px;
+  .level-item {
+    padding-right: 10px;
 
-        .navbar-text {
-            color: $primary;
-            font-family: $main-font;
-            font-size: 1.1em;
-        }
-
-        .nav-title {
-            font-family: $accent-font;
-        }
+    .navbar-text {
+      color: $primary;
+      font-family: $main-font;
+      font-size: 1.1em;
     }
 
-    .level-item:hover {
-
-        .navbar-text {
-            color: black;
-            font-weight: 900;
-        }
+    .nav-title {
+      font-family: $accent-font;
     }
+  }
+
+  .level-item:hover {
+    .navbar-text {
+      color: black;
+      font-weight: 900;
+    }
+  }
 }

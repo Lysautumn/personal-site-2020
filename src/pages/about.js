@@ -69,7 +69,10 @@ const AboutPage = () => (
           <a className="links" rel="noopener noreferrer" target="_blank" href="https://www.dailyui.co/">
             Daily UI
           </a>
-          . Here's some of my past work:
+          .
+        </p>
+        <p>
+          Here's some of my past work:
         </p>
         <div className="link-container">
           <a className="links" rel="noopener noreferrer" target="_blank" href="https://www.dribbble.com/allyboyd">
