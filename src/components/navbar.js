@@ -1,19 +1,28 @@
+import React from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
-import React from 'react';
 
 import './navbar.scss';
 
 const NavBar = ({ siteTitle }) => (
-  <header>
-    <div>
-      <h1>
-        <Link to="/">
-          {siteTitle}
-        </Link>
-      </h1>
+  <nav className="level" aria-label="navigation">
+    <div className="level-left">
+      <div className="level-item">
+        <Link className="title" to="/"><span className="navbar-text">{ siteTitle }</span></Link>
+      </div>
     </div>
-  </header>
+    <div className="level-right">
+      <div className="level-item">
+        <Link className="navbar-text" to="/about/">About</Link>
+      </div>
+      <div className="level-item">
+        <Link className="navbar-text" to="/contact/">Contact</Link>
+      </div>
+      <div className="level-item">
+        <Link className="navbar-text" to="/work/">My Work</Link>
+      </div>
+    </div>
+  </nav>
 );
 
 NavBar.propTypes = {

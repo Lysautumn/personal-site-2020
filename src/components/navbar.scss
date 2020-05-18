@@ -2,11 +2,24 @@
 
 @import '~bulma/bulma.sass';
 
-.navbar {
+.level {
     background-image: $colorful-background;
+    padding: 20px;
 
-    .navbar-item {
-        color: $primary;
-        font-family: $main-headline-font;
+    .level-item {
+        padding-right: 10px;
+
+        .navbar-text {
+            color: $primary;
+            font-family: $main-headline-font;
+        }
+    }
+
+    .level-item:hover {
+
+        .navbar-text {
+            color: black;
+            font-weight: 900;
+        }
     }
 }
