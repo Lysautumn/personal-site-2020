@@ -12,7 +12,7 @@ const AboutPage = () => (
     <SEO title="About Ally" />
     <div className="about-container">
       <h1 className="title has-text-centered">About Me</h1>
-      <div className="section">
+      <section className="section">
         <p>
           I did not start my career as a Software Engineer. When I was young, I didn't think I was
           interested in, or good at, math and science. I earned an undergraduate degree in Political
@@ -23,8 +23,8 @@ const AboutPage = () => (
         <p>
           That's when I was introduced to code.
         </p>
-      </div>
-      <div className="section">
+      </section>
+      <section className="section">
         <h2 className="subtitle about-subtitle is-2">
           <FontAwesomeIcon icon={ faLightbulb } />
           Passionately Curious
@@ -49,8 +49,8 @@ const AboutPage = () => (
             GitHub
           </a>
         </div>
-      </div>
-      <div className="section">
+      </section>
+      <section className="section">
         <h2 className="subtitle about-subtitle is-2">
         <FontAwesomeIcon icon={ faPalette } />
           Creative
@@ -80,8 +80,8 @@ const AboutPage = () => (
             Dribbble
           </a>
         </div>
-      </div>
-      <div className="section">
+      </section>
+      <section className="section">
         <h2 className="subtitle about-subtitle is-2">
         <FontAwesomeIcon icon={ faMugHot } />
           Quirky and Caffeinated
@@ -98,7 +98,7 @@ const AboutPage = () => (
           walking paths, find cool local businesses to support, and attend fun events like Art-A-Whirl, TC Pride Festival,
           and (of course) the MN State Fair.
         </p>
-      </div>
+      </section>
     </div>
   </Layout>
 );

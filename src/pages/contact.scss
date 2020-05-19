@@ -3,15 +3,16 @@
 @import '~bulma/bulma.sass';
 
 .contact-container {
-  height: 100vh;
-
   .card-container{
+    .column {
+      margin: 10px;
+    }
+    
     .card {
       background-color: white;
-      margin-bottom: 20px;
+      padding: 5px;
 
       .card-content {
-
         .bold-text {
           font-weight: 700;
         }
@@ -23,6 +24,7 @@
 
         .link-container {
           margin: 10px 0;
+
           .links {
             color: $accent;
           }
@@ -37,6 +39,11 @@
         }
       }
     }
+  }
+}
 
+@media screen and (min-width: 769px) {
+  .contact-container {
+    height: 100vh;
   }
 }
