@@ -14,11 +14,16 @@ const AboutPage = () => (
       <h1 className="title has-text-centered">About Me</h1>
       <section className="section">
         <p>
-          I did not start my career as a Software Engineer. When I was young, I didn't think I was
-          interested in, or good at, math and science. I earned an undergraduate degree in Political
-          Science (a topic I'm still interested in) and a graduate degree in Public Administration.
-          I worked in a few different industries while I waited for a job in my field and while deciding
-          if I wanted to go back to school to earn a PhD, so I could be a professor.
+          I have always loved learning.
+        </p>
+        <p>
+          As a kid, I would spend my summer vacations reading and learning new things. This love continued through college where I earned
+          a degree in Political Science. While in college, I decided to continue my education, in hopes of one day earning a PhD and becoming
+          a professor. I went to graduate school for Public Administration. As I neared the end of the program, I became eager to start working.
+        </p>
+        <p>
+          Because I graduated during the recession, finding a job in my field was difficult. I worked in many different industries (including as a 
+          barista and administering payroll) while waiting for the right career opportunity.
         </p>
         <p>
           That's when I was introduced to code.
@@ -91,12 +96,16 @@ const AboutPage = () => (
           for many years and I love to find new coffee shops to visit. Know of any good ones? Let me know!
         </p>
         <p>
-          The things I enjoy doing in my free time are wide-ranging. I enjoy playing board games
-          and some video games (lately, I've been playing Animal Crossing: New Horizons on the Switch).
-          I really love to read, even though I don't always have a lot of time to spend on it. I also
-          like to watch documentaries and listen to podcasts. When the MN weather allows, I love to explore
-          walking paths, find cool local businesses to support, and attend fun events like Art-A-Whirl, TC Pride Festival,
-          and (of course) the MN State Fair.
+          The things I enjoy doing in my free time are wide-ranging. Currently, like many others, I have been self-isolating
+          at home. This has given me the opportunity to develop hobbies that others are rising in popularity: cooking, learning how
+          to bake bread, making whipped coffee, and playing Animal Crossing.
+        </p>
+        <p>
+          I also have been able to spend more time reading, watching Netflix, and going for walks around my neighborhood.
+        </p>
+        <p>
+          When the MN weather turns nice (and health guidelines allow), I love to explore walking paths, find cool local businesses to support,
+          and attend fun events like Art-A-Whirl, TC Pride Festival, and (of course!) the Minnesota State Fair.
         </p>
       </section>
     </div>
